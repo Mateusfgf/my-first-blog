@@ -1,7 +1,7 @@
 h1 a {
     
-    color: ##7CFC00;
-    font-family: 'Indie Flower';
+    color: #7CFC00;
+    font-family: 'Tangerine';
    
 }
 
@@ -10,6 +10,7 @@ body {
 }
 
 .page-header {
+
     background-color: #36648B;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
@@ -26,7 +27,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Indie Flower', serif;
+    font-family: 'Arial', serif;
 }
 
 .date {
@@ -54,11 +55,4 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
-}
-
-.page404{
-
-     background-image: url("https://gruposdezap.com/wp-content/uploads/2018/03/IMG-20180306-WA0046.jpg");
-   background-color: #cccccc;
-    
 }
