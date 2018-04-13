@@ -26,6 +26,8 @@ SECRET_KEY = '2&5*by4wl80d9vep-wnaq_+%7i)9m9h7rl3xn+-ahd9l%9yx=z'
 DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', 'mateusfgf.pythonanywhere.com']
 
+LOGIN_REDIRECT_URL = '/'
+
 
 
 
@@ -122,3 +124,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'mateusowmedeiros@gmail.com' 
+EMAIL_HOST_PASSWORD = 'senha_de_app'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+
+
